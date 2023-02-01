@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/ComponentServiceBus_EventBus_JPMS_Maven/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ComponentServiceBus_EventBus_JPMS_Maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Component_EventBus_JPMS_Maven/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Component_EventBus_JPMS_Maven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DocumentSystem_Automaton_EventBus_JPMS_Maven/conf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/DocumentSystem_Automaton_EventBus_JPMS_Maven/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MessagingSystem_Automaton_EventBus_JPMS_Maven/conf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MessagingSystem_Automaton_EventBus_JPMS_Maven/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MessagingSystem_Automaton_EventBus_JPMS_Maven/src/de/leuphana/swa/messagingsystem/structure/communicationpartner/EmailReceiver.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/MessagingSystem_Automaton_EventBus_JPMS_Maven/src/de/leuphana/swa/messagingsystem/structure/communicationpartner/EmailSender.java" charset="ISO-8859-1" />
+  </component>
+</project>

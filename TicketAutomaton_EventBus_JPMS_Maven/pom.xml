@@ -1,0 +1,75 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>de.leuphana.cosa</groupId>
+	<artifactId>ticketautomaton</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>23.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.leuphana.cosa</groupId>
+			<artifactId>component</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.leuphana.cosa</groupId>
+			<artifactId>printingsystem</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.leuphana.cosa</groupId>
+			<artifactId>messagingsystem</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.leuphana.cosa</groupId>
+			<artifactId>documentsystem</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<dependency>
+			<groupId>de.leuphana.cosa</groupId>
+			<artifactId>componentservicebus</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<testSourceDirectory>test</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>conf</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>13</release>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

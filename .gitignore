@@ -1,0 +1,7 @@
+# Project exclude paths
+/Component_EventBus_JPMS_Maven/target/
+/ComponentServiceBus_EventBus_JPMS_Maven/target/
+/DocumentSystem_Automaton_EventBus_JPMS_Maven/target/
+/MessagingSystem_Automaton_EventBus_JPMS_Maven/target/
+/PrintingSystem_Automaton_EventBus_JPMS_Maven/target/
+/TicketAutomaton_EventBus_JPMS_Maven/target/
