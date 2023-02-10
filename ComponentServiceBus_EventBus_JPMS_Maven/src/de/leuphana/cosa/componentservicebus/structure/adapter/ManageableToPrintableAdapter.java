@@ -10,6 +10,7 @@ import de.leuphana.swa.printingsystem.behaviour.service.PrintConfiguration;
 import de.leuphana.swa.printingsystem.behaviour.service.Printable;
 import de.leuphana.swa.printingsystem.behaviour.service.PrintingCommandService;
 
+
 public class ManageableToPrintableAdapter implements ManageableEventListener {
 	
 	private PrintingCommandService printingCommandService;
