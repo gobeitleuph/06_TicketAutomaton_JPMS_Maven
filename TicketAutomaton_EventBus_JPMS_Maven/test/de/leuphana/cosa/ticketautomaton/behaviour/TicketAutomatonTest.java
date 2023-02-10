@@ -17,5 +17,5 @@ class TicketAutomatonTest {
 	void canTicketBeSold() {
 		Assertions.assertTrue(ticketAutomaton.sellTicket("Lüneburg", "Hamburg"));
 	}
-
+//PENIS JANNES
 }

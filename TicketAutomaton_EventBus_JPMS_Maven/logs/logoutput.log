@@ -237,3 +237,8 @@
 20230210 14:46:15 INFO  [main] structure.PrintJobState PrintJobState.java14 - Print job status - QueuedPrintJobState
 20230210 14:46:15 INFO  [main] structure.PrintJobState PrintJobState.java14 - Print job status - PrintedPrintJobState
 20230210 14:46:15 INFO  [main] behaviour.MessagingSystemImpl MessagingSystemImpl.java40 - Message: Print date: 2023-02-10 Print price: 0.0 transported via EMAIL
+20230210 14:47:56 INFO  [main] behaviour.DocumentSystemImpl DocumentSystemImpl.java62 - Document : Lüneburg Hamburg created!
+20230210 14:47:56 INFO  [main] structure.PrintJobState PrintJobState.java14 - Print job status - CreatedPrintJobState
+20230210 14:47:56 INFO  [main] structure.PrintJobState PrintJobState.java14 - Print job status - QueuedPrintJobState
+20230210 14:47:56 INFO  [main] structure.PrintJobState PrintJobState.java14 - Print job status - PrintedPrintJobState
+20230210 14:47:56 INFO  [main] behaviour.MessagingSystemImpl MessagingSystemImpl.java40 - Message: Print date: 2023-02-10 Print price: 0.0 transported via EMAIL
